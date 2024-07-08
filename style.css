@@ -1,0 +1,13 @@
+*{  margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tamanho{
+    width: 1500px;
+    height: 800px;
+}
+footer{
+   display: flex;
+    padding: 24px;
+    justify-content: center;
+}
