@@ -1,13 +1,28 @@
-*{  margin:0;
-    padding: 0;
+body{
+    padding:0;
+    margin:0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(1, 41, 1);
+    background-image: linear-gradient(to left, rgb(187, 196, 188), rgb(18, 68, 37));
 }
-.tamanho{
-    width: 1500px;
-    height: 800px;
+h1{display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display:block;
+}
+.table{
+        padding: 30px;
+        margin: 60px;
 }
 footer{
-   display: flex;
-    padding: 24px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
     justify-content: center;
 }
